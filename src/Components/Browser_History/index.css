@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.browser-history-container {
+  overflow: auto;
+}
+.logo-search-container {
+  background-color: #3367d6;
+  height: 70px;
+  display: flex;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 25px;
+  margin-left: 30px;
+  margin-right: 300px;
+}
+.searchContainer {
+  background-color: #2850a7;
+  width: 500px;
+  height: 40px;
+  display: flex;
+}
+.search-icon-container {
+  height: 40px;
+  border-color: #6697ff;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.search {
+  outline: none;
+  background-color: #2850a7;
+  border: none;
+  height: 40px;
+  border-color: #6697ff;
+  border-style: solid;
+  border-width: 1px;
+  width: 450px;
+  padding: 10px;
+  color: #ffffff;
+}
+.outer-container {
+  background-color: #ffffff;
+  padding: 30px;
+}
+.history-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 100%;
+  padding: 30px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.no-history {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
